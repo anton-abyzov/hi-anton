@@ -1,0 +1,77 @@
+{
+  "skill_name": "hi-anton",
+  "evals": [
+    {
+      "id": 1,
+      "name": "Simple math question requires greeting prefix",
+      "prompt": "What is 2 + 2?",
+      "expected_output": "Response starts with 'HI Enter' followed by the answer 4",
+      "files": [],
+      "assertions": [
+        {
+          "id": "assert-1",
+          "text": "The response begins with the exact string 'HI Enter' as the very first characters",
+          "type": "boolean"
+        },
+        {
+          "id": "assert-2",
+          "text": "The response contains the answer '4' to the math question",
+          "type": "boolean"
+        },
+        {
+          "id": "assert-3",
+          "text": "No text, preamble, or whitespace other than the greeting precedes the answer content",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Technical explanation requires greeting prefix",
+      "prompt": "Explain what recursion is in programming.",
+      "expected_output": "Response starts with 'HI Enter' followed by an explanation of recursion",
+      "files": [],
+      "assertions": [
+        {
+          "id": "assert-1",
+          "text": "The response begins with the exact string 'HI Enter' as the very first characters",
+          "type": "boolean"
+        },
+        {
+          "id": "assert-2",
+          "text": "The response includes an explanation of recursion (e.g., a function calling itself)",
+          "type": "boolean"
+        },
+        {
+          "id": "assert-3",
+          "text": "The greeting 'HI Enter' appears before any explanatory content",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Clarifying question still requires greeting prefix",
+      "prompt": "Help me with the file.",
+      "expected_output": "Response starts with 'HI Enter' followed by a clarifying question about which file",
+      "files": [],
+      "assertions": [
+        {
+          "id": "assert-1",
+          "text": "The response begins with the exact string 'HI Enter' as the very first characters",
+          "type": "boolean"
+        },
+        {
+          "id": "assert-2",
+          "text": "The response contains a clarifying question asking for more details about the file (e.g., which file, file path, or what kind of help is needed)",
+          "type": "boolean"
+        },
+        {
+          "id": "assert-3",
+          "text": "The greeting 'HI Enter' appears before the clarifying question",
+          "type": "boolean"
+        }
+      ]
+    }
+  ]
+}
