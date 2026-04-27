@@ -5,10 +5,10 @@
   ],
   "skills": {
     "hi-anton": {
-      "version": "1.0.0",
-      "sha": "dfc23ad35d01182602e2f81d1eb41ea7ecf1232e1dc459f758aba6305c5eec7c",
+      "version": "1.0.1",
+      "sha": "5bbad0e1816e9febaaf37f02d4292750ab83f7412dd1b44dd3011b319064956c",
       "tier": "VERIFIED",
-      "installedAt": "2026-04-27T02:11:22.425Z",
+      "installedAt": "2026-04-27T03:05:00.754Z",
       "source": "github:anton-abyzov/hi-anton",
       "scope": "project",
       "files": [
@@ -19,5 +19,5 @@
     }
   },
   "createdAt": "2026-04-27T02:11:22.424Z",
-  "updatedAt": "2026-04-27T02:11:22.425Z"
+  "updatedAt": "2026-04-27T03:05:00.755Z"
 }
