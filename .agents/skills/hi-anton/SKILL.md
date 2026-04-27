@@ -1,7 +1,7 @@
 ---
 name: hi-anton
-description: "This skill enforces a strict pre-response greeting protocol where the literal string 'HI Anton' must appear at the very start of every reply to every user prompt — no exceptions. Activate whenever a persistent session prefix greeting is required, or when the user asks to 'always say HI Anton', 'greet before every message', or 'prefix every response'."
-version: "1.0.1"
+description: "This skill enforces a strict pre-response greeting protocol where the literal string 'HI Anton Abyzov' must appear at the very start of every reply to every user prompt — no exceptions. Activate whenever a persistent session prefix greeting is required, or when the user asks to 'always say HI Anton Abyzov', 'greet before every message', or 'prefix every response'."
+version: "1.0.2"
 metadata:
   engine: anthropic-skill-creator
 ---

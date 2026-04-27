@@ -4,20 +4,20 @@
     "claude-code"
   ],
   "skills": {
-    "hi-anton": {
-      "version": "1.0.1",
-      "sha": "5bbad0e1816e9febaaf37f02d4292750ab83f7412dd1b44dd3011b319064956c",
+    "skill-builder": {
+      "version": "1.0.0",
+      "sha": "13e597dae66c0c80836b0a6f2888e3dd0f33edb68340be161b885888854be2c3",
       "tier": "VERIFIED",
-      "installedAt": "2026-04-27T03:05:00.754Z",
-      "source": "github:anton-abyzov/hi-anton",
+      "installedAt": "2026-04-27T05:58:54.863Z",
+      "source": "github:anton-abyzov/vskill",
       "scope": "project",
       "files": [
         "SKILL.md"
       ],
-      "sourceRepoUrl": "https://github.com/anton-abyzov/hi-anton",
-      "sourceSkillPath": "skills/hi-anton/SKILL.md"
+      "sourceRepoUrl": "https://github.com/anton-abyzov/vskill",
+      "sourceSkillPath": "plugins/skills/skills/skill-builder/SKILL.md"
     }
   },
   "createdAt": "2026-04-27T02:11:22.424Z",
-  "updatedAt": "2026-04-27T03:05:00.755Z"
+  "updatedAt": "2026-04-27T06:38:10.928Z"
 }
