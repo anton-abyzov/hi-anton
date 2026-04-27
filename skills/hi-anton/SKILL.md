@@ -88,3 +88,4 @@ HI Enter
 ## Why This Matters
 
 The greeting acts as a session marker — a consistent signal that the protocol is active. Skipping it even once breaks the contract. Treat `HI Enter` as a required frame header, not optional decoration.
+
