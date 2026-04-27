@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "agents": [
+    "claude-code"
+  ],
+  "skills": {
+    "hi-anton": {
+      "version": "1.0.0",
+      "sha": "dfc23ad35d01182602e2f81d1eb41ea7ecf1232e1dc459f758aba6305c5eec7c",
+      "tier": "VERIFIED",
+      "installedAt": "2026-04-27T02:11:22.425Z",
+      "source": "github:anton-abyzov/hi-anton",
+      "scope": "project",
+      "files": [
+        "SKILL.md"
+      ],
+      "sourceRepoUrl": "https://github.com/anton-abyzov/hi-anton",
+      "sourceSkillPath": "skills/hi-anton/SKILL.md"
+    }
+  },
+  "createdAt": "2026-04-27T02:11:22.424Z",
+  "updatedAt": "2026-04-27T02:11:22.425Z"
+}
